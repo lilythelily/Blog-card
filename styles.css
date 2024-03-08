@@ -1,0 +1,134 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.figtree{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+p.category {
+    font-family: figtree, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px 10px 8px 10px;
+    display: flex;
+    border-radius: 8px;
+    color: hsl(0, 0%, 7%);
+    margin: 16px 0 16px 0;
+}
+
+p.category:hover{
+    font-family: figtree, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: hsl(47, 90%, 72%);
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    border-radius: 4px;
+    color: hsl(0, 0%, 7%);
+    margin: 18px 0 18px 0;
+    cursor: pointer;
+}
+
+img.mainpic {
+    border-radius: 20px;
+    width: 100%;
+}
+
+p.date {
+    font-family: figtree, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-family: figtree, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: hsl(0, 0%, 7%);
+    margin: 0 0 24px 0;
+    letter-spacing: 0.1cap;
+    cursor: pointer;
+}
+
+h1:hover {
+    font-family: figtree, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: hsl(47, 88%, 63%);
+    margin: 0 0 24px 0;
+    letter-spacing: 0.1cap;
+    cursor: pointer;
+}
+
+p.text {
+    font-family: figtree, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    text-wrap: wrap;
+    margin-bottom: 24px;
+    line-height: 2cap;
+}
+
+h3 {
+    font-family: figtree, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: hsl(0, 0%, 7%);
+}
+
+h3:hover {
+    font-family: figtree, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: hsl(0, 0%, 24%);
+    cursor: pointer;
+}
+
+div.author {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+img.avatar {
+    width: 40px;
+    height: 40px;
+
+}
+
+div.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 24px 24px 24px 24px;
+    max-width: 80%;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-bottom: 10px solid hsl(0, 0%, 7%);
+    border-right: 10px solid hsl(0, 0%, 7%);
+    align-items: flex-start;
+}
+
+.attribution {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    margin: 40px 0 40px 0;
+}

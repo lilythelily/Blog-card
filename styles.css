@@ -1,8 +1,25 @@
 * {
-box-sizing: border-box;
+ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+
+@media (max-width: 375px){
+    .card {max-width: 80%;}
+}
+
+@media (min-width: 375px) {
+    .card {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        max-width: 33.33%;
+    }
+}
+
 
 .figtree{
     font-family: "Figtree", sans-serif;
@@ -18,19 +35,19 @@ body {
 
 p.category {
     font-family: figtree, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 800;
     background-color: hsl(47, 88%, 63%);
     padding: 8px 10px 8px 10px;
     display: flex;
-    border-radius: 8px;
+    border-radius: 4px;
     color: hsl(0, 0%, 7%);
     margin: 16px 0 16px 0;
 }
 
 p.category:hover{
     font-family: figtree, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 800;
     background-color: hsl(47, 90%, 72%);
     padding: 10px 10px 10px 10px;
@@ -52,6 +69,7 @@ p.date {
     font-weight: 500;
     color: hsl(0, 0%, 7%);
     margin-bottom: 24px;
+    opacity: 0.8;
 }
 
 h1 {
@@ -95,7 +113,7 @@ h3:hover {
     font-family: figtree, sans-serif;
     font-weight: 800;
     font-size: 16px;
-    color: hsl(0, 0%, 24%);
+    color: hsl(47, 88%, 63%);
     cursor: pointer;
 }
 
@@ -114,13 +132,12 @@ img.avatar {
 div.card {
     background-color: hsl(0, 0%, 100%);
     padding: 24px 24px 24px 24px;
-    max-width: 80%;
     border-radius: 24px;
     display: flex;
     flex-direction: column;
-    margin: auto;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
     border: 1px solid hsl(0, 0%, 7%);
     border-bottom: 10px solid hsl(0, 0%, 7%);
     border-right: 10px solid hsl(0, 0%, 7%);
